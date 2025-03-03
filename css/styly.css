@@ -1014,7 +1014,7 @@ main.co {
   /* flex-direction: column; */
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  margin-top: -60px;
+  margin-top: -100px;
   /* row-gap:; */
   /* background-color: #c0c0c0; */
   /* position: absolute;
