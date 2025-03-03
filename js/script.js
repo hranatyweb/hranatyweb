@@ -7,21 +7,21 @@ btnNavEl.addEventListener("click", function () {
 });
 
 ////// STICKY-NAVIGATION //////
-const sectionAboutHelp = document.querySelector(".main-photo");
-const obs = new IntersectionObserver(
-  function (entries) {
-    const ent = entries[0];
-    if (!ent.isIntersecting)
-      document.querySelector(".navbar").classList.add("sticky");
-    if (ent.isIntersecting)
-      document.querySelector(".navbar").classList.remove("sticky");
-  },
-  {
-    root: null,
-    threshold: 0,
-  }
-);
-obs.observe(sectionAboutHelp);
+// const sectionAboutHelp = document.querySelector(".main-photo");
+// const obs = new IntersectionObserver(
+//   function (entries) {
+//     const ent = entries[0];
+//     if (!ent.isIntersecting)
+//       document.querySelector(".navbar").classList.add("sticky");
+//     if (ent.isIntersecting)
+//       document.querySelector(".navbar").classList.remove("sticky");
+//   },
+//   {
+//     root: null,
+//     threshold: 0,
+//   }
+// );
+// obs.observe(sectionAboutHelp);
 
 // const allLinks = document.querySelectorAll(".lin");
 
